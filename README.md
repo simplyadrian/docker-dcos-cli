@@ -2,6 +2,10 @@
 
 A simple Docker image based on [Alpine](https://registry.hub.docker.com/_/alpine/) used by [Apollo](https://github.com/Capgemini/Apollo) for running [Mesosphere DCOS command-line interface (CLI) to remotely manage your mesos cluster](https://docs.mesosphere.com/using/cli/).
 
+## Requirements
+
+IAM instance profile or the ability to assume a IAM role that gives the container access to credstash, where the DCOS_CLI_TOKEN is kept.
+
 ## Usage
 
 ### Running DCOS CLI
