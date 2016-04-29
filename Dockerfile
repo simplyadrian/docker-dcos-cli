@@ -8,11 +8,11 @@ ENV DCOS_CLI_VERSION=0.4.4
 
 # update and install alpine packages
 RUN apk --update add \
-		bash \
-		curl \
-		python \
+    bash \
+    curl \
+    python \
     python-dev \
-		py-pip \
+    py-pip \
     gcc \
     g++ \
     make \
