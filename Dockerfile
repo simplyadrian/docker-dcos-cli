@@ -3,8 +3,8 @@ MAINTAINER Adrian Herrera <simplyadrian@gmail.com>
 
 # set some environment variables
 ENV DCOS_CONFIG=/dcos-cli/.dcos/dcos.toml
-ENV DCOS_URL=https://dev-dcos-master.mgage.com
-ENV DCOS_CLI_VERSION=0.4.4
+ENV DCOS_URL=https://dev-dcos-master.mgage.io/
+ENV DCOS_CLI_VERSION=0.4.5
 
 # update and install alpine packages
 RUN apk --update add \
